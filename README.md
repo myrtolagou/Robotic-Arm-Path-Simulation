@@ -18,7 +18,7 @@ with a marker held in the gripper.
 | File | Description |
 |---|---|
 | [`fullcode.m`](fullcode.m) | Full pipeline: defines the robot model (D-H parameters, joint limits), runs the resolved-rate IK control loop, then drives the physical arm via an Arduino (`arduino`, `servo`, `writePosition`). |
-| [`try_13.m`](try_13.m) | Simulation-only version of the same control loop — computes and animates the joint trajectory in MATLAB without touching hardware. |
+| [`simulation.m`](try_13.m) | Simulation-only version of the same control loop — computes and animates the joint trajectory in MATLAB without touching hardware. |
 | [`qconv.m`](qconv.m) | Helper: returns the Jacobian, end-effector position, and orientation quaternion for a given joint configuration. |
 
 ## Third-party dependency
