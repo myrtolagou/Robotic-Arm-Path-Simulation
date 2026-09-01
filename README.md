@@ -18,7 +18,7 @@ with a marker held in the gripper.
 | File | Description |
 |---|---|
 | [`fullcode.m`](fullcode.m) | Full pipeline: defines the robot model (D-H parameters, joint limits), runs the resolved-rate IK control loop, then drives the physical arm via an Arduino (`arduino`, `servo`, `writePosition`). |
-| [`simulation.m`](try_13.m) | Simulation-only version of the same control loop — computes and animates the joint trajectory in MATLAB without touching hardware. |
+| [`simulation.m`](simulation.m) | Simulation-only version of the same control loop — computes and animates the joint trajectory in MATLAB without touching hardware. |
 | [`qconv.m`](qconv.m) | Helper: returns the Jacobian, end-effector position, and orientation quaternion for a given joint configuration. |
 
 ## Third-party dependency
@@ -39,5 +39,5 @@ Machine Vision component (`vision/`) and its third-party dependencies
 ## Running it
 
 1. Open MATLAB in this folder and run `startup_rvc` to add the toolboxes to the path.
-2. Run `try_13.m` to simulate the control loop and see the arm animate.
+2. Run `simulation.m` to simulate the control loop and see the arm animate.
 3. `fullcode.m` additionally drives real servos over a serial connection (`COM3`) — only run this with the hardware connected.
