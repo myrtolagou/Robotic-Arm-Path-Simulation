@@ -26,10 +26,8 @@ included here so the code runs out of the box:
 - [`common/`](common/) — shared utility functions used by the above
 - `startup_rvc.m` — adds the toolboxes to the MATLAB path (run this first)
 
-These folders are **not my work** — see their own license files
-(`robot/LGPL-LICENCE.txt`, `spatial-math/LICENSE`) for terms. The toolbox's
-Machine Vision component (`vision/`) and its third-party dependencies
-(`contrib/`) were removed from this copy since the project doesn't use them.
+These folders are **not my work**: see their own license files
+(`robot/LGPL-LICENCE.txt`, `spatial-math/LICENSE`) for terms.
 
 ## Running it
 
