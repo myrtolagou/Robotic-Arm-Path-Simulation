@@ -1,6 +1,6 @@
 # Robotics Project — 7-DOF Arm Resolved-Rate Control
 
-This project contains the code developed for "Introduction to Robotics" (ECE_ΔΚ703) course: a resolved-rate motion control (Jacobian-based inverse kinematics with quaternion orientation error) for a 7-DOF serial-link arm, driven on real hardware through Arduino-controlled servos to draw on paper with a marker held in the gripper.
+This project contains the code developed for "Introduction to Robotics" (ECE_ΔΚ703) course: a resolved-rate motion control (Jacobian-based inverse kinematics with quaternion orientation error) for a 7-DOF serial-link arm, driven on real hardware through Arduino-controlled servos to draw on paper with a marker held in the gripper. (December 2022)
 
 <p align="center">
   <img src="assets/demo.gif" width="45%" alt="Physical arm drawing on paper">
